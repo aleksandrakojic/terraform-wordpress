@@ -1,4 +1,4 @@
-# terraform-wordpress
+# terraform wordpress
 
 Mini terraform project to deploy wordpress on AWS
 
@@ -17,18 +17,7 @@ aws ec2 crate-key-pair --key-name devops --query "KeyMaterial" --output text > "
 
 - File structure
 
-├── modules
-│    └── networking
-│           ├── main.tf
-│           ├── outputs.tf
-│           └── variables.tf
-│    └── ec2
-│           ├── main.tf
-│           ├── outputs.tf
-│           └── variables.tf
-├── variables.tf
-├── main.tf
-└── install_wordpress.sh
+![file structure](./files.png)
 
 
 - We can initialize terraform
